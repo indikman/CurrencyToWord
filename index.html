@@ -1,0 +1,17 @@
+
+<html>
+    <head>
+            <script src=currencytoword.js></script>
+            <script>
+                function test() {
+                    var txt = document.getElementById("txt").value;
+                    document.getElementById("demo").innerHTML = ConvertToWords(txt);
+                }
+            </script>
+    </head>
+    <body>
+            <input type="text" id="txt" onkeyup="test()">
+            <p id="demo"></p>
+    </body>
+</html>
+
